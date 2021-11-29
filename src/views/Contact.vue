@@ -1,11 +1,39 @@
 <template lang="html">
-  <p>Contact coming soon</p>
+  <div class="contact">
+
+  <i class="massive github icon" @click="openGithub"></i>
+
+  <i class="massive linkedin square icon" @click="openLinkedIn"></i>
+
+  <i class="massive mail outline icon" @click="copyEmailAddress"></i>
+  </div>
 </template>
 
 <script>
 export default {
+  name: 'contact',
+  methods: {
+    openGithub() {
+      window.open('https://github.com/agpoulsen', '_blank');
+    },
+    openLinkedIn() {
+      window.open('https://www.linkedin.com/in/alexgpoulsen/', '_blank');
+    },
+    copyEmailAddress: async function() {
+      const email = 'lexpoulsen@gmail.com';
+      navigator.clipboard.writeText(email).then(() => {
+        alert('Email address copied clipboard');
+      })
+    }
+  }
 }
 </script>
 
 <style lang="css" scoped>
+
+.contact {
+  text-align: center;
+  padding: 10em;
+}
+
 </style>
