@@ -22,7 +22,7 @@ export default {
     copyEmailAddress: async function() {
       const email = 'lexpoulsen@gmail.com';
       navigator.clipboard.writeText(email).then(() => {
-        alert('Email address copied clipboard');
+        alert('Email address copied to clipboard');
       })
     }
   }
