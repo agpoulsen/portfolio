@@ -1,5 +1,7 @@
 <template lang="html">
-  <p>Projects coming soon</p>
+  <div class="container">
+    <p>Projects coming soon</p>
+  </div>
 </template>
 
 <script>

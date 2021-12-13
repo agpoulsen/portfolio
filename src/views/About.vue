@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="container">
     <h1>About</h1>
     <p>I am a software engineering student from General Assembly with over a decade in the brewing and distilling industry, where I was responsible for the creation of award-winning products. </p>
     <p>Coming from this industry, I am no stranger to problem-solving, effective communication and high standards of work.</p>
@@ -17,7 +17,7 @@
     justify-content: center;
   }
 
-  .about {
+  .container {
     max-width: 50vw;
     margin: 0 auto;
   }

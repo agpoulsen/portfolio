@@ -1,5 +1,7 @@
 <template lang="html">
-  <p>Experience coming soon</p>
+  <div class="container">
+    <p>Experience coming soon</p>
+  </div>
 </template>
 
 <script>

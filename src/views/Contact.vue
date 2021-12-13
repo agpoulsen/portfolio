@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="contact">
+  <div class="container">
 
   <i class="massive github icon" @click="openGithub"></i>
 
@@ -31,9 +31,19 @@ export default {
 
 <style lang="css" scoped>
 
-.contact {
+.container {
   text-align: center;
   padding: 10em;
+}
+
+.massive {
+  display: inline-flex;
+}
+
+.massive:hover {
+  color: blue;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
 }
 
 </style>
