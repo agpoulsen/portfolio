@@ -7,7 +7,7 @@
         <router-link to="/skills&technologies" class='item'>Skills & Technologies</router-link>
         <router-link to="/education" class='item'>Education</router-link>
         <router-link to="/experience" class='item'>Experience</router-link>
-        <a href="https://drive.google.com/file/d/12uFoupud52cgZqXZKjbHutC3mFtOmQ9-/view?usp=sharing" target="_blank" class='item'>Resume</a> 
+        <a href="https://drive.google.com/file/d/1kAHUpHdlicqrC1doNmvJi-NtlrDzzOg8/view?usp=sharing" target="_blank" class='item'>Resume</a>
         <router-link to="/contact" class='item'>Contact</router-link>
         </div>
     </div>
@@ -20,5 +20,8 @@ export default {
 }
 </script>
 
-<style >
+<style scoped>
+
+
+
 </style>

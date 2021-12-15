@@ -33,11 +33,13 @@ export default {
 
 .container {
   text-align: center;
-  padding: 10em;
+  padding: 2em;
 }
 
 .massive {
   display: inline-flex;
+  padding: 1rem;
+  margin: 2rem;
 }
 
 .massive:hover {

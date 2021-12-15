@@ -1,15 +1,21 @@
 <template lang="html">
   <div class="container">
     <div class="education">
-      <p>Software Engineering Immersive</p>
-      <p>General Assembly Australia</p>
+      <h3>Software Engineering Immersive</h3>
+      <h4>General Assembly Australia</h4>
       <p>September 2021 - December 2021</p>
     </div>
 
     <div class="education">
-      <p>Graduate Diploma of Distillation</p>
-      <p>Institute of Brewing & Distilling</p>
+      <h3>Graduate Diploma of Distillation</h3>
+      <h4>Institute of Brewing & Distilling</h4>
       <p>2020 - Ongoing</p>
+    </div>
+
+    <div class="education">
+      <h3>Bachelor of Science (Pharmacology & Biochemistry)</h3>
+      <h4>University of Western Australia</h4>
+      <p>2006 - 2008</p>
     </div>
 
 
@@ -24,6 +30,10 @@ export default {
 <style lang="css" scoped>
 
 .education {
-  border: 1px black solid;
+  margin: 2em 0 2em 0;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 0.5em;
+  border: 2px solid black;
 }
 </style>
