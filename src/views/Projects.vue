@@ -1,10 +1,10 @@
 <template lang="html">
   <div class="container">
 
-<div class="ui link cards">
+    <div class="ui link cards">
 
   <sui-card class="card">
-    <sui-image src="static/images/avatar/large/kristy.png" />
+    <sui-image src="/touchpoint.png" />
     <sui-card-content>
       <sui-card-header>Touchpoint</sui-card-header>
       <sui-card-description>
@@ -30,7 +30,7 @@
   </sui-card>
 
   <sui-card class="card">
-    <sui-image src="static/images/avatar/large/kristy.png" />
+    <sui-image src="/gutbucket.png" />
     <sui-card-content>
       <sui-card-header>gutBucket</sui-card-header>
       <sui-card-description>
@@ -52,7 +52,7 @@
   </sui-card>
 
   <sui-card class="card">
-    <sui-image src="static/images/avatar/large/kristy.png" />
+    <sui-image src="/dinnr.png" />
     <sui-card-content>
       <sui-card-header>Dinnr</sui-card-header>
       <sui-card-description>
@@ -75,7 +75,7 @@ common that they like on a night out.</p>
   </sui-card>
 
   <sui-card class="card">
-    <sui-image src="static/images/avatar/large/kristy.png" />
+    <sui-image src="/tictactoe.png" />
     <sui-card-content>
       <sui-card-header>Tic Tac Toe</sui-card-header>
       <sui-card-description>
