@@ -2,7 +2,7 @@
   <div class="app">
     <header class='ui black inverted segment'>
       <h1>Alex Poulsen</h1>
-      <h3>Junior Software Engineer</h3>
+      <h3>Software Engineer</h3>
     </header>
     <Navbar/>
     <router-view/>
